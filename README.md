@@ -461,8 +461,7 @@ CHAHUN
 
 ## 📞 Contact
 
-- **Issues:** [GitHub Issues](https://github.com/Noohcha-kimE/onrobot_gripper_driver/issues)
-- **Pull Requests:** [GitHub Pull Requests](https://github.com/Noohcha-kimE/onrobot_gripper_driver/pulls)
+- **Email:** minseung2201@gmail.com
 
 ---
 
