@@ -1,0 +1,7 @@
+# Set gripper-specific parameters
+string parameter_name       # e.g., "fingertip_offset", "payload", "gentle_grip"
+float64 value
+
+---
+bool success
+string message

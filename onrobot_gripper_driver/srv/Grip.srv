@@ -1,0 +1,16 @@
+# Universal grip command for all gripper types
+
+# Common parameters
+float64 target_position     # 2FG/RG: width(mm), 3FG: diameter(mm), VG: vacuum(%), MG: strength(%)
+float64 force               # 2FG/RG/3FG: force(N), VG: not used, MG: not used
+float64 speed               # 2FG/RG: speed(%), 3FG: not used, VG: not used, MG: not used
+bool wait_for_completion    # Block until grip completed
+
+# Type-specific parameters
+uint8 grip_mode             # 2FG/RG: 0=external 1=internal, 3FG: 0=external 1=internal
+int32[] channel_mask        # VG: which channels to activate [0,1,2,3 for VGP20]
+
+---
+bool success
+string message
+float64 actual_position     # Final position achieved

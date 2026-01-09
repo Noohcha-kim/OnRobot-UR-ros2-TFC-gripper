@@ -1,0 +1,10 @@
+onrobot_gripper_node:
+  ros__parameters:
+    # Modbus RTU Serial Port Configuration
+    serial_port: "/tmp/ttyUR"        # Virtual serial port created by socat
+    baud_rate: 1000000               # 1M baud (or 115200)
+    parity: "E"                      # E=Even, O=Odd, N=None
+    data_bits: 8                     # Always 8 for Modbus
+    stop_bits: 1                     # 1 or 2
+    slave_id: 65                     # OnRobot Modbus Slave ID (usually 65)
+    polling_rate_hz: 50.0            # State polling rate

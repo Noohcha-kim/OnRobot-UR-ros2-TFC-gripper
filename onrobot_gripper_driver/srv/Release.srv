@@ -1,0 +1,7 @@
+# Universal release command
+bool wait_for_completion
+int32[] channel_mask        # VG only: which channels to release
+
+---
+bool success
+string message

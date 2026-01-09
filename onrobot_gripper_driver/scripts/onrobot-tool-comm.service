@@ -1,0 +1,27 @@
+# OnRobot Tool Communication Systemd Service
+# 
+# 설치 방법:
+# 1. sudo cp onrobot-tool-comm.service /etc/systemd/system/
+# 2. sudo systemctl daemon-reload
+# 3. sudo systemctl enable onrobot-tool-comm.service
+# 4. sudo systemctl start onrobot-tool-comm.service
+#
+# 확인: sudo systemctl status onrobot-tool-comm.service
+
+[Unit]
+Description=OnRobot Tool Communication (socat)
+After=network.target
+
+[Service]
+Type=simple
+User=noah
+Group=noah
+Environment="ROBOT_IP=192.168.56.101"
+Environment="TCP_PORT=54321"
+Environment="DEVICE_NAME=/tmp/ttyUR"
+ExecStart=/usr/bin/socat pty,link=/tmp/ttyUR,raw,ignoreeof,waitslave tcp:192.168.56.101:54321
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
