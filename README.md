@@ -91,7 +91,7 @@ cd ~/ros2_ws/src
 ### 2. Clone Repository
 
 ```bash
-git clone https://github.com/Noohcha-kimE/onrobot_gripper_driver.git
+git clone https://github.com/Noohcha-kim/onrobot_gripper_driver.git
 ```
 
 ### 3. Install Dependencies
