@@ -63,7 +63,9 @@ Please read the [LICENSE](LICENSE) file before use.
 - **Universal Robots UR Series** (UR3e, UR5e, UR10e, UR16e, etc.)
 - **OnRobot Gripper** (see supported list above)
 - **socat** - Virtual serial port creation
-
+- **External Control.urcap** 
+- **RS485.urcap**
+- 
 ```bash
 sudo apt install socat
 ```
