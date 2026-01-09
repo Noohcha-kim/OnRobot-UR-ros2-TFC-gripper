@@ -118,7 +118,7 @@ source install/setup.bash
 **On UR Teach Pendant:**
 
 1. **Installation → General**
-   - Tool I/O Interface → Select RS485
+   - Tool I/O Interface → Cotrolled by User → Communication Interface
    
 2. **Installation → Communication**
    - RS485 Baudrate → **1000000** (or 115200)
