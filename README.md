@@ -125,8 +125,6 @@ source install/setup.bash
    - RS485 Parity → **Even**
    - RS485 Stop Bits → 1
 
-3. **Program → Tool I/O**
-   - Enable Tool Communication
 
 ### 2. Check IP Address
 
@@ -436,7 +434,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## 📖 References
 
-- [OnRobot Connectivity Guide](https://onrobot.com/en/support)
 - [ROS2 Humble Documentation](https://docs.ros.org/en/humble/)
 - [Universal Robots ROS2 Driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver)
 
@@ -450,7 +447,7 @@ Apache License 2.0 - See [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-CHAHUN - OnRobot ROS2 Driver Development Team
+CHAHUN
 
 ---
 
