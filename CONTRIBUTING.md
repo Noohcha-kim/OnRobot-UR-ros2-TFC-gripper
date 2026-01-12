@@ -257,7 +257,7 @@ Pull Requests will be reviewed based on:
 
 - Post questions on GitHub Issues
 - Use Discussion tab
-- Email: (contact)
+- Email: minseung2201@gmail.com
 
 ---
 
